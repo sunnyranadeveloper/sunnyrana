@@ -5,4 +5,6 @@
 	php artisan db:seed --class=<'All the fils in /database/ClassName'>
 2. to start Laravel enter 'php artisan serve'
 3. to start react app run in new terminal 'npm run dev'
-4. Register and Login into the application. 
+4. Register and Login into the application.
+
+(Thanks for your opportunity, First time i worked in Laravel/Reactjs it was amazing.) 
