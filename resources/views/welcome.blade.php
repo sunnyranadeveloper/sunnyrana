@@ -10,18 +10,18 @@
     <link rel="shortcut icon" href="/images/fav2.ico" type="image/x-icon">
     <link rel="icon" href="/images/fav2.ico" type="image/x-icon">
     <!-- include the site stylesheet -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">
     <!-- main stylesheet -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/style.css') }}">
     <!-- color stylesheet -->
-    <link rel="stylesheet" href="/css/colors.css" id="ui-theme-color">
+    <link rel="stylesheet" href="{{ URL::asset('css/colors.css') }}" id="ui-theme-color">
     <!-- responsive css -->
-    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="{{ URL::asset('css/responsive.css') }}">
 </head>
 <body>
 	<div class="loader_wrapper">
         <div class="loader">
-            <img src="/images/loader.gif" alt="" class="img-fluid">
+            <img src="{{ URL::asset('images/loader.gif') }}" alt="" class="img-fluid">
         </div>
     </div>
     <div id="app">
