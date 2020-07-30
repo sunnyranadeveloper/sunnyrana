@@ -6,9 +6,9 @@
     <title>Pizza...</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/app.css">
-    <link rel="shortcut icon" href="/images/fav2.ico" type="image/x-icon">
-    <link rel="icon" href="/images/fav2.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/app.css') }}">
+    <link rel="shortcut icon" href="{{ URL::asset('images/fav2.ico') }}" type="image/x-icon">
+    <link rel="icon" href="{{ URL::asset('images/fav2.ico') }}" type="image/x-icon">
     <!-- include the site stylesheet -->
     <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}">
     <!-- main stylesheet -->
